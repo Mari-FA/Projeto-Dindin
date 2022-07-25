@@ -1,0 +1,147 @@
+.section-one {
+    background-color: #ffffff;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    margin-top: 80px;
+}
+
+.box-title {
+    margin: 0px 120px;
+    width: 400px;
+}
+
+.title-h1 {
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text {
+    margin: 20px 0px;
+    color:#555555;
+}
+
+.box-image {
+    margin: 0px 60px 40px -50px;
+}
+
+.box-image img {
+    max-width: 300px;
+}
+
+.section-two {
+    background-color: #f6f6f6;
+}
+
+.box-two {
+   padding: 100px 0px;
+}
+
+.box-video-two{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 50px 310px;
+    border-bottom: 2px solid #C4C4C4
+}
+
+.video, .box-title-two{
+    display: inline-block;
+}
+
+.box-title-two {
+    text-align: left;
+    width: 400px;
+    margin: 0px 0px 50px 50px;
+}
+
+.title-h2 {
+    margin-top: 10px;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text-two {
+    margin: 20px 0px;
+    color:#555555;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+    .box-one {
+        display: block;
+        padding-top: 50px;
+        max-width: 80%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .box-two {
+        padding: 30px 0px;
+        align-items: center;
+    }
+
+    .box-text-video {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+      .box-one {
+        display: block;
+        padding-top: 80px;
+        max-width: 80%;
+        margin: auto;
+        align-items: center;
+
+    }
+
+    .title-h1 {
+        font-size: 70px;
+    }
+
+    .text {
+        font-size: 26px;
+    }
+
+    .box-image {
+        margin-top: 50px;
+    }
+
+    .box-image img {
+        max-width: 500px;
+    } 
+
+    .box-two {
+        padding: 30px 0px;
+    }
+
+    .box-text-video {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .box-video-two {
+        margin: 80px 0px;
+    }
+
+    .box-video-two img {
+        max-height: 100%;
+    }
+
+    .title-h2 {
+        font-size: 34px;
+    }
+
+    .text-two {
+        font-size: 22px;
+    }
+}
